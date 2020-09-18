@@ -1,7 +1,9 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@use "sass:map";
+
+@media (min-width: map.get($mq-breakpoints, "medium")) {
 
 .container {
   max-width: 1400px;

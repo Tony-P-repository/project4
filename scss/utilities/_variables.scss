@@ -12,3 +12,13 @@ $button-bg-color: (
   ".success" : #63cc82,
   ".warning" : #fd7856
 );
+
+// bg color for grid columns is picked from the color wheel depending on the number of column
+// the option below is for the starting color of the first col class
+$grid-col-bg-start-color: red;
+
+$img-frame-color: #ccc;
+
+$mq-breakpoints: (
+  "medium" : 768px
+);

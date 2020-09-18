@@ -19,17 +19,17 @@
 }
 
 .error {
-  background-color: map.get($button-bg-color, &);
+  background-color: map.get($button-bg-color, #{&});
 }
 
 .info {
-  background-color: map.get($button-bg-color, &);
+  background-color: map.get($button-bg-color, #{&});
 }
 
 .success {
-  background-color: map.get($button-bg-color, &);
+  background-color: map.get($button-bg-color, #{&});
 }
 
 .warning {
-  background-color: map.get($button-bg-color, &);
+  background-color: map.get($button-bg-color, #{&});
 }
