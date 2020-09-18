@@ -2,10 +2,12 @@
 /*              Buttons                          */
 /* ============================================= */
 
+@use "sass:map";
+
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  color: $button-font-color;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -13,21 +15,21 @@
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $link-color;
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: map.get($button-bg-color, &);
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: map.get($button-bg-color, &);
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: map.get($button-bg-color, &);
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: map.get($button-bg-color, &);
 }

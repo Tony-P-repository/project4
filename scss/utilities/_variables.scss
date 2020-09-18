@@ -1,0 +1,14 @@
+@use "sass:map";
+
+$default-font-color: #777;
+$h-primary-color: #58e1c1;
+$h-secondary-color: #777;
+$link-color: #51ddfc;
+
+$button-font-color: #fff;
+$button-bg-color: (
+  ".error" : #e4757a,
+  ".info" : #927bc1,
+  ".success" : #63cc82,
+  ".warning" : #fd7856
+);
