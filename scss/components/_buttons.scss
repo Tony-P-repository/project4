@@ -14,22 +14,8 @@
   border-radius: 5px;
 }
 
-.default {
-  background-color: $link-color;
-}
-
-.error {
-  background-color: map.get($button-bg-color, #{&});
-}
-
-.info {
-  background-color: map.get($button-bg-color, #{&});
-}
-
-.success {
-  background-color: map.get($button-bg-color, #{&});
-}
-
-.warning {
-  background-color: map.get($button-bg-color, #{&});
+@each $btn-class, $bg-color in $button-bg-color {
+  .#{$btn-class} {
+    background-color: $bg-color;
+  }
 }

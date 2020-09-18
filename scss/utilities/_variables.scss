@@ -8,15 +8,27 @@ $nav-link-hover-color: #fff;
 
 $button-font-color: #fff;
 $button-bg-color: (
-  ".error" : #e4757a,
-  ".info" : #927bc1,
-  ".success" : #63cc82,
-  ".warning" : #fd7856
+  "default" : $link-color,
+  "error" : #e4757a,
+  "info" : #927bc1,
+  "success" : #63cc82,
+  "warning" : #fd7856
 );
 
-// bg color for grid columns is picked from the color wheel depending on the number of column
-// the option below is for the starting color of the first col class
-$grid-col-bg-start-color: red;
+$grid-col-bg: (
+  #927bc1,
+  #fd7856,
+  #deb2ee,
+  #7ee6fd,
+  #88d9a0,
+  #4da2bb,
+  #ec9fa3,
+  #fd9f85,
+  #e4757a,
+  #63cc82,
+  #51ddfc,
+  #80e8d1
+);
 
 $img-frame-color: #ccc;
 
