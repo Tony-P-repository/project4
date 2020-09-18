@@ -10,21 +10,23 @@
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
+}
 
-  [class^=col] {
-    margin-top: 10px;
-    flex-basis: 100%;
-    min-height: 25px;
-    padding: 10px;
-    border-radius: 5px;
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
 
-    .card {
-      flex-basis: 100%;
-    }
-  }
+.card {
+  flex-basis: 100%;
+}
 
+.theme {
   @for $i from 1 through $grid-col-num {
-    .theme.col-#{$i} {
+    &.col-#{$i} {
       background-color: nth($grid-col-bg, $i);
     }
   }
