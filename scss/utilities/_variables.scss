@@ -4,7 +4,7 @@ $default-font-color         : #777;
 $h-primary-color            : #58e1c1;
 $h-secondary-color          : #777;
 
-$any-link-color             : #51ddfc;
+$inline-link-color          : #51ddfc;
 $nav-link-color--hover      : #fff;
 $nav-link-bg-color--hover   : $h-primary-color;
 
@@ -12,7 +12,7 @@ $quote-left-accent          : $h-primary-color;
 
 $button-font-color          : #fff;
 $button-bg-color: (
-  "default"                 : $any-link-color,
+  "default"                 : $inline-link-color,
   "error"                   : #e4757a,
   "info"                    : #927bc1,
   "success"                 : #63cc82,
