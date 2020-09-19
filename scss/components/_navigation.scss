@@ -19,8 +19,8 @@
       color .2s ease-in-out;
 
     &:hover {
-      color: $nav-link-hover-color;
-      background-color: $h-primary-color;
+      color: $nav-link-color--hover;
+      background-color: $nav-link-bg-color--hover;
     }
   }
 }

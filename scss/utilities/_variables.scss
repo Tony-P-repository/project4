@@ -1,22 +1,28 @@
 @use "sass:map";
 
-$default-font-color: #777;
-$h-primary-color: #58e1c1;
-$h-secondary-color: #777;
-$link-color: #51ddfc;
-$nav-link-hover-color: #fff;
+$default-font-color         : #777;
+$h-primary-color            : #58e1c1;
+$h-secondary-color          : #777;
 
-$button-font-color: #fff;
+$any-link-color             : #51ddfc;
+$nav-link-color--hover      : #fff;
+$nav-link-bg-color--hover   : $h-primary-color;
+
+$quote-left-accent          : $h-primary-color;
+
+$button-font-color          : #fff;
 $button-bg-color: (
-  "default" : $link-color,
-  "error" : #e4757a,
-  "info" : #927bc1,
-  "success" : #63cc82,
-  "warning" : #fd7856
+  "default"                 : $any-link-color,
+  "error"                   : #e4757a,
+  "info"                    : #927bc1,
+  "success"                 : #63cc82,
+  "warning"                 : #fd7856
 );
 
-$grid-col-num: 12;
-$grid-col-bg: (
+$input-bottom-accent        : $h-primary-color;
+
+$grid-col-num               : 12;
+$grid-col-bg-color: (
   #927bc1,
   #fd7856,
   #deb2ee,
@@ -31,8 +37,8 @@ $grid-col-bg: (
   #80e8d1
 );
 
-$img-frame-color: #ccc;
+$img-frame-color            : #ccc;
 
 $mq-breakpoints: (
-  "medium" : "min-width: 768px"
+  "medium"                  : "min-width: 768px"
 );

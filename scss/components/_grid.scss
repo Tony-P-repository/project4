@@ -27,7 +27,7 @@
 .theme {
   @for $i from 1 through $grid-col-num {
     &.col-#{$i} {
-      background-color: nth($grid-col-bg, $i);
+      background-color: nth($grid-col-bg-color, $i);
     }
   }
 }
