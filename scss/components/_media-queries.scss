@@ -3,7 +3,7 @@
 /* ============================================= */
 @use "sass:map";
 
-@media (min-width: map.get($mq-breakpoints, "medium")) {
+@media (map.get($mq-breakpoints, "medium")) {
 
 .centered {
   display: block;
